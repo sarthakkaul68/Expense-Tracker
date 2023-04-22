@@ -1,0 +1,50 @@
+.transaction-container{
+    /* border-style: dashed; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 22px;
+    font-size: 18px;
+    width: 100%;
+   font-weight: bold;
+   align-items: flex-start;
+
+}
+
+.Transaction-input{
+
+    padding: 10px 20px;
+    border-radius: 12px;
+    background: #e6e8e9;
+    border: 1px solid #e6e8e9;
+    outline: none;
+    width: 100%;
+}
+
+.cell-expense{
+    display: flex;
+flex-direction: row;
+padding: 10px 15px;
+font-size: 14px;
+border-radius: 2px;
+align-items: center;
+font-weight: normal;
+justify-content: space-between;
+width: 100%;
+border: solid 1px #e6e8e9;
+border-right:4px solid  red;
+}
+
+.cell-income{
+display: flex;
+flex-direction: row;
+padding: 10px 15px;
+font-size: 14px;
+border-radius: 2px;
+align-items: center;
+font-weight: normal;
+justify-content: space-between;
+width: 100%;
+border: solid 1px #e6e8e9;
+border-right:4px solid  green;
+    }
